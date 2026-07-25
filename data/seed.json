@@ -1,0 +1,732 @@
+{
+  "siteInfo": {
+    "name": "Zirra Vaisah Peter",
+    "photo": "",
+    "title_line": "Cybersecurity Graduate, Researcher | Ethical Hacker | Digital Security Advocate | TEDx Speaker Curator",
+    "tagline": "I break systems to make them safer — vulnerability assessment, penetration testing, and secure software, grounded in research and community leadership.",
+    "about_text": "I'm a cybersecurity graduate of North-Eastern University, Gombe, where I closed out my degree with a 5.00 CGPA and four consecutive Pro-Chancellor's Academic Excellence Awards. What pulled me into this field was a simple curiosity about how things break — and that curiosity has since taken me from vulnerability scanning and penetration testing to building AI-assisted security tools and publishing research on where artificial intelligence and cybersecurity collide in Nigeria's digital landscape.\n\nI like building things that solve real problems where I am — an automated vulnerability dashboard, a clinic management system for my university's health centre, a fleet management platform, an LLM-augmented pentesting framework. Practical, secure, and useful to the people who actually use them.\n\nOutside the technical work, I've spent a lot of my university years in rooms where decisions get made — as General Secretary of TEDxNorth-Eastern University, as a Senator in the Students' Representative Assembly, on the committee that reviewed our SRC constitution. I've come to believe good security work and good leadership run on the same instinct: stay calm, think clearly, and explain it simply enough that anyone can act on it.",
+    "about_short": "Cybersecurity graduate specializing in vulnerability assessment, penetration testing, and AI-assisted security research. TEDx organizer and published researcher.",
+    "email": "vaisahzirra7@gmail.com",
+    "email_alt": "vaisah.zirra@student.neu.edu.ng",
+    "linkedin": "https://www.linkedin.com/in/vaisah-peter-zirra-0ba6842b7/",
+    "github": "https://github.com/vaisahzirra7",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=Y298ugoAAAAJ",
+    "researchgate": "https://www.researchgate.net/profile/Vaisah-Peter-Zirra",
+    "instagram": "https://www.instagram.com/northernodogwu/"
+  },
+  "skills": [
+    {
+      "name": "Burp Suite",
+      "category": "Security",
+      "sort_order": 0,
+      "id": 1
+    },
+    {
+      "name": "Nessus",
+      "category": "Security",
+      "sort_order": 1,
+      "id": 2
+    },
+    {
+      "name": "OpenVAS",
+      "category": "Security",
+      "sort_order": 2,
+      "id": 3
+    },
+    {
+      "name": "Wireshark",
+      "category": "Security",
+      "sort_order": 3,
+      "id": 4
+    },
+    {
+      "name": "Kali Linux",
+      "category": "Security",
+      "sort_order": 4,
+      "id": 5
+    },
+    {
+      "name": "Nmap",
+      "category": "Security",
+      "sort_order": 5,
+      "id": 6
+    },
+    {
+      "name": "Cisco Packet Tracer",
+      "category": "Security",
+      "sort_order": 6,
+      "id": 7
+    },
+    {
+      "name": "Process Monitor",
+      "category": "Security",
+      "sort_order": 7,
+      "id": 8
+    },
+    {
+      "name": "Process Explorer",
+      "category": "Security",
+      "sort_order": 8,
+      "id": 9
+    },
+    {
+      "name": "Python",
+      "category": "Development",
+      "sort_order": 9,
+      "id": 10
+    },
+    {
+      "name": "Flask",
+      "category": "Development",
+      "sort_order": 10,
+      "id": 11
+    },
+    {
+      "name": "Django",
+      "category": "Development",
+      "sort_order": 11,
+      "id": 12
+    },
+    {
+      "name": "PHP",
+      "category": "Development",
+      "sort_order": 12,
+      "id": 13
+    },
+    {
+      "name": "JavaScript",
+      "category": "Development",
+      "sort_order": 13,
+      "id": 14
+    },
+    {
+      "name": "HTML",
+      "category": "Development",
+      "sort_order": 14,
+      "id": 15
+    },
+    {
+      "name": "CSS",
+      "category": "Development",
+      "sort_order": 15,
+      "id": 16
+    },
+    {
+      "name": "MySQL",
+      "category": "Development",
+      "sort_order": 16,
+      "id": 17
+    },
+    {
+      "name": "SQL Server",
+      "category": "Development",
+      "sort_order": 17,
+      "id": 18
+    },
+    {
+      "name": "MongoDB",
+      "category": "Development",
+      "sort_order": 18,
+      "id": 19
+    },
+    {
+      "name": "WordPress",
+      "category": "Development",
+      "sort_order": 19,
+      "id": 20
+    },
+    {
+      "name": "Wix",
+      "category": "Development",
+      "sort_order": 20,
+      "id": 21
+    },
+    {
+      "name": "Notepad++",
+      "category": "Development",
+      "sort_order": 21,
+      "id": 22
+    },
+    {
+      "name": "Sublime Text",
+      "category": "Development",
+      "sort_order": 22,
+      "id": 23
+    },
+    {
+      "name": "Brackets",
+      "category": "Development",
+      "sort_order": 23,
+      "id": 24
+    },
+    {
+      "name": "Anaconda",
+      "category": "Data & AI",
+      "sort_order": 24,
+      "id": 25
+    },
+    {
+      "name": "Apache Spark",
+      "category": "Data & AI",
+      "sort_order": 25,
+      "id": 26
+    },
+    {
+      "name": "Pandas",
+      "category": "Data & AI",
+      "sort_order": 26,
+      "id": 27
+    },
+    {
+      "name": "NLP / Sentiment Analysis",
+      "category": "Data & AI",
+      "sort_order": 27,
+      "id": 28
+    },
+    {
+      "name": "Adobe Photoshop",
+      "category": "Design",
+      "sort_order": 28,
+      "id": 29
+    },
+    {
+      "name": "Adobe Illustrator",
+      "category": "Design",
+      "sort_order": 29,
+      "id": 30
+    },
+    {
+      "name": "Lightroom",
+      "category": "Design",
+      "sort_order": 30,
+      "id": 31
+    },
+    {
+      "name": "CorelDRAW",
+      "category": "Design",
+      "sort_order": 31,
+      "id": 32
+    },
+    {
+      "name": "Figma",
+      "category": "Design",
+      "sort_order": 32,
+      "id": 33
+    },
+    {
+      "name": "SketchUp",
+      "category": "Design",
+      "sort_order": 33,
+      "id": 34
+    },
+    {
+      "name": "AutoCAD",
+      "category": "Design",
+      "sort_order": 34,
+      "id": 35
+    },
+    {
+      "name": "MS Office Suite",
+      "category": "Productivity",
+      "sort_order": 35,
+      "id": 36
+    }
+  ],
+  "projects": [
+    {
+      "title": "VanaraIntelliScan",
+      "description": "LLM-augmented vulnerability assessment and pentest framework. AI-assisted risk prioritization and remediation recommendations.",
+      "tags": "AI, Security, Python",
+      "link": "",
+      "sort_order": 0,
+      "id": 1
+    },
+    {
+      "title": "VanaraOpenDash",
+      "description": "Automated vulnerability assessment dashboard built on OpenVAS, with live security metrics and reporting.",
+      "tags": "Security, Dashboard, OpenVAS",
+      "link": "",
+      "sort_order": 1,
+      "id": 2
+    },
+    {
+      "title": "VanaraUniCare",
+      "description": "Clinic management system built for NEU's health centre — patient records, scheduling, treatment history.",
+      "tags": "Web App, Healthcare",
+      "link": "",
+      "sort_order": 2,
+      "id": 3
+    },
+    {
+      "title": "VanaraFleetOps",
+      "description": "Fleet management system automating vehicle allocation, driver assignment, and maintenance tracking.",
+      "tags": "Web App, Operations",
+      "link": "",
+      "sort_order": 3,
+      "id": 4
+    },
+    {
+      "title": "Web App Security Testing Platform",
+      "description": "A deliberately vulnerable Flask/MySQL app demonstrating stored XSS and HTML injection, built to study secure coding practices.",
+      "tags": "Security, Flask, MySQL",
+      "link": "",
+      "sort_order": 4,
+      "id": 5
+    },
+    {
+      "title": "Fingerprint Recognition System",
+      "description": "Biometric matching system in MATLAB — preprocessing, feature extraction, GUI.",
+      "tags": "Biometrics, MATLAB",
+      "link": "",
+      "sort_order": 5,
+      "id": 6
+    },
+    {
+      "title": "ML Election Prediction",
+      "description": "NLP-based sentiment analysis of election-related social media data, deployed via Flask.",
+      "tags": "AI, NLP, Flask",
+      "link": "",
+      "sort_order": 6,
+      "id": 7
+    },
+    {
+      "title": "University Past Question Archive",
+      "description": "Centralized, access-controlled repository of past exam papers for students and staff.",
+      "tags": "Web App, Education",
+      "link": "",
+      "sort_order": 7,
+      "id": 8
+    }
+  ],
+  "experience": [
+    {
+      "role": "Member, Constitution Review Committee",
+      "org": "2026 SRC Administration, Students’ Representative Assembly, NEU",
+      "period": "2026",
+      "description": "Reviewed the existing SRC Constitution and identified areas requiring amendment.",
+      "sort_order": 0,
+      "id": 1
+    },
+    {
+      "role": "Senator",
+      "org": "2nd Students’ Representative Assembly, NEU",
+      "period": "Nov 2025 – June 2026",
+      "description": "Represented student interests, participated in legislative deliberations and policy discussions.",
+      "sort_order": 1,
+      "id": 2
+    },
+    {
+      "role": "General Secretary",
+      "org": "TEDxNorth-Eastern University",
+      "period": "Feb 2025 – July 2026",
+      "description": "Coordinated team activities, documentation, and communication; supported planning and execution of TEDx events.",
+      "sort_order": 2,
+      "id": 3
+    },
+    {
+      "role": "Member, Speaker Curation Committee",
+      "org": "TEDxNorth-Eastern University",
+      "period": "2025 – July 2026",
+      "description": "Selected, mentored, and supported speakers delivering TEDx talks.",
+      "sort_order": 3,
+      "id": 4
+    },
+    {
+      "role": "Student Volunteer",
+      "org": "North-Eastern University, Gombe",
+      "period": "Jan 2023 – July 2026",
+      "description": "Assisted with student orientation, admissions, and official university activities.",
+      "sort_order": 4,
+      "id": 5
+    },
+    {
+      "role": "Community Outreach Volunteer",
+      "org": "Multi-Team Projects",
+      "period": "2021 – present",
+      "description": "Humanitarian visits to orphanages, rehab centers, and prisons.",
+      "sort_order": 5,
+      "id": 6
+    },
+    {
+      "role": "Organizer",
+      "org": "Young Programmers Training, Evangel College",
+      "period": "Aug 2018",
+      "description": "Trained secondary school students in basic IT and programming concepts.",
+      "sort_order": 6,
+      "id": 7
+    }
+  ],
+  "research": [
+    {
+      "type": "Conference Paper",
+      "title": "AI and Cybersecurity: Navigating Innovation and Vulnerability in Nigeria’s Digital Landscape",
+      "venue": "UNESCO World Philosophy Day, Abuja",
+      "year": "2024",
+      "description": "Co-authored academic paper exploring innovation and vulnerability in Nigeria’s AI-driven digital security space.",
+      "sort_order": 0,
+      "id": 1
+    },
+    {
+      "type": "Journal Publication",
+      "title": "AI and Cybersecurity: Navigating Innovation and Vulnerability in Nigeria’s Digital Landscape",
+      "venue": "Philosophia Politica: Journal of African Political Philosophy and Leadership, Vol. 3 No. 1",
+      "year": "2024",
+      "description": "",
+      "sort_order": 1,
+      "id": 2
+    },
+    {
+      "type": "Talk",
+      "title": "The MITRE ATT&CK Framework",
+      "venue": "Inaugural Student Seminar Series, Dept. of Computer Science, NEU",
+      "year": "2024",
+      "description": "Technical presentation on adversarial tactics and MITRE ATT&CK’s role in cybersecurity defence.",
+      "sort_order": 2,
+      "id": 3
+    },
+    {
+      "type": "Talk",
+      "title": "ML-Based Election Prediction System using NLP",
+      "venue": "Student Week Lecture Day, NEU",
+      "year": "2024",
+      "description": "Technical presentation on an election prediction system using NLP.",
+      "sort_order": 3,
+      "id": 4
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Ransomware Protection Officer (CRPO)",
+      "issuer": "European Union Agency for Cybersecurity (ENISA)",
+      "year": "2026",
+      "category": "Cybersecurity",
+      "featured": 1,
+      "sort_order": 0,
+      "id": 1
+    },
+    {
+      "name": "Certified Cybersecurity Educator Professional (CCEP)",
+      "issuer": "Red Team Leaders",
+      "year": "2026",
+      "category": "Cybersecurity",
+      "featured": 1,
+      "sort_order": 1,
+      "id": 2
+    },
+    {
+      "name": "Security Risk Management Professional (SRMP) – Country",
+      "issuer": "INSSA x DisasterReady.org",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 1,
+      "sort_order": 2,
+      "id": 3
+    },
+    {
+      "name": "Ethical Hacking",
+      "issuer": "CISCO",
+      "year": "2024",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 3,
+      "id": 4
+    },
+    {
+      "name": "Cyber Threat Management",
+      "issuer": "CISCO",
+      "year": "2023",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 4,
+      "id": 5
+    },
+    {
+      "name": "Network Technician",
+      "issuer": "CISCO",
+      "year": "2023",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 5,
+      "id": 6
+    },
+    {
+      "name": "Network Defence",
+      "issuer": "CISCO",
+      "year": "2023",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 6,
+      "id": 7
+    },
+    {
+      "name": "Introduction to Cybersecurity",
+      "issuer": "CISCO",
+      "year": "2023",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 7,
+      "id": 8
+    },
+    {
+      "name": "Cybersecurity & Ethical Hacking",
+      "issuer": "NIPES",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 8,
+      "id": 9
+    },
+    {
+      "name": "Cyber Security Certification",
+      "issuer": "Pitronix Solutions",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 9,
+      "id": 10
+    },
+    {
+      "name": "Cybersecurity Awareness Training 2022",
+      "issuer": "Amazon ACA",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 10,
+      "id": 11
+    },
+    {
+      "name": "Network Security Management",
+      "issuer": "DigitalXpert System Limited",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 11,
+      "id": 12
+    },
+    {
+      "name": "Database Design and Administration",
+      "issuer": "DigitalXpert System Limited",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 12,
+      "id": 13
+    },
+    {
+      "name": "Security Risk Management Professional – Country level Examination",
+      "issuer": "INSSA",
+      "year": "2025",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 13,
+      "id": 14
+    },
+    {
+      "name": "Internet Security",
+      "issuer": "OPSWAT",
+      "year": "2026",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 14,
+      "id": 15
+    },
+    {
+      "name": "Digital Footprints",
+      "issuer": "OPSWAT",
+      "year": "2026",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 15,
+      "id": 16
+    },
+    {
+      "name": "What the Internet Needs to Exist",
+      "issuer": "OPSWAT",
+      "year": "2026",
+      "category": "Cybersecurity",
+      "featured": 0,
+      "sort_order": 16,
+      "id": 17
+    },
+    {
+      "name": "Advanced Data Analytics",
+      "issuer": "NIPES",
+      "year": "2025",
+      "category": "Data & AI",
+      "featured": 0,
+      "sort_order": 17,
+      "id": 18
+    },
+    {
+      "name": "Big Data with Apache Spark (Professional Certificate)",
+      "issuer": "ML.org",
+      "year": "—",
+      "category": "Data & AI",
+      "featured": 0,
+      "sort_order": 18,
+      "id": 19
+    },
+    {
+      "name": "Digital Marketing Professional Certification",
+      "issuer": "Digital Adda",
+      "year": "2025",
+      "category": "Other",
+      "featured": 0,
+      "sort_order": 19,
+      "id": 20
+    },
+    {
+      "name": "Mobile Web Development",
+      "issuer": "Google Africa Developers Program",
+      "year": "2020",
+      "category": "Development",
+      "featured": 0,
+      "sort_order": 20,
+      "id": 21
+    },
+    {
+      "name": "PHP with MySQL for Web Development",
+      "issuer": "Udemy",
+      "year": "2022",
+      "category": "Development",
+      "featured": 0,
+      "sort_order": 21,
+      "id": 22
+    },
+    {
+      "name": "HTML Web Design Certification",
+      "issuer": "Programming Hub",
+      "year": "2022",
+      "category": "Development",
+      "featured": 0,
+      "sort_order": 22,
+      "id": 23
+    },
+    {
+      "name": "Software Testing Fundamentals",
+      "issuer": "Byju's",
+      "year": "2022",
+      "category": "Development",
+      "featured": 0,
+      "sort_order": 23,
+      "id": 24
+    },
+    {
+      "name": "Certificate in Graphic Design and Branding",
+      "issuer": "Diplomatic Teens Network",
+      "year": "2019",
+      "category": "Design",
+      "featured": 0,
+      "sort_order": 24,
+      "id": 25
+    },
+    {
+      "name": "Unilever Level-Up Entrepreneurship Skills Course",
+      "issuer": "Unilever",
+      "year": "2023",
+      "category": "Other",
+      "featured": 0,
+      "sort_order": 25,
+      "id": 26
+    },
+    {
+      "name": "Professional Soft Skills Training",
+      "issuer": "Jobberman x Mastercard Foundation",
+      "year": "2023",
+      "category": "Other",
+      "featured": 0,
+      "sort_order": 26,
+      "id": 27
+    },
+    {
+      "name": "Awareness Workshop on Open Knowledge & Editing",
+      "issuer": "Wikimedia Foundation",
+      "year": "2022",
+      "category": "Other",
+      "featured": 0,
+      "sort_order": 27,
+      "id": 28
+    },
+    {
+      "name": "Certificate of Participation, Entrepreneurship Summit 2.0",
+      "issuer": "Innovate X",
+      "year": "2025",
+      "category": "Other",
+      "featured": 0,
+      "sort_order": 28,
+      "id": 29
+    }
+  ],
+  "awards": [
+    {
+      "name": "Pro-Chancellor’s Academic Excellence Award (5.00 CGPA)",
+      "issuer": "North-Eastern University, Gombe",
+      "year": "2025/2026",
+      "sort_order": 0,
+      "id": 1
+    },
+    {
+      "name": "Pro-Chancellor’s Academic Excellence Award (5.00 CGPA)",
+      "issuer": "North-Eastern University, Gombe",
+      "year": "2024/2025",
+      "sort_order": 1,
+      "id": 2
+    },
+    {
+      "name": "Pro-Chancellor’s Academic Excellence Award (5.00 CGPA)",
+      "issuer": "North-Eastern University, Gombe",
+      "year": "2023/2024",
+      "sort_order": 2,
+      "id": 3
+    },
+    {
+      "name": "Pro-Chancellor’s Academic Excellence Award (5.00 CGPA)",
+      "issuer": "North-Eastern University, Gombe",
+      "year": "2022/2023",
+      "sort_order": 3,
+      "id": 4
+    },
+    {
+      "name": "Award of Recognition, Student Week – Lecture Day",
+      "issuer": "Student Week Planning Committee, NEU",
+      "year": "2025/2026",
+      "sort_order": 4,
+      "id": 5
+    },
+    {
+      "name": "Recognized for selfless service and contribution",
+      "issuer": "NEU Christian Forum",
+      "year": "2026",
+      "sort_order": 5,
+      "id": 6
+    },
+    {
+      "name": "Recognized for contribution to open knowledge",
+      "issuer": "Wikimedia Contest Challenge",
+      "year": "2023",
+      "sort_order": 6,
+      "id": 7
+    },
+    {
+      "name": "Annual North-East Tech Fest Competition Winner",
+      "issuer": "Illmus Computer College",
+      "year": "—",
+      "sort_order": 7,
+      "id": 8
+    },
+    {
+      "name": "Top 5 Finalist, Kennedy Lugar Youth Exchange Program",
+      "issuer": "Evangel College",
+      "year": "—",
+      "sort_order": 8,
+      "id": 9
+    },
+    {
+      "name": "Recognized for outstanding performance in mathematics and science",
+      "issuer": "Evangel Inter-Class Mathematics Competition",
+      "year": "—",
+      "sort_order": 9,
+      "id": 10
+    }
+  ]
+}

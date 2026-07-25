@@ -203,9 +203,20 @@ function renderProjects(projects) {
 
   document.getElementById('carouselTotal').textContent = String(totalPages).padStart(2, '0');
 
+  function getStep() {
+    const cards = track.querySelectorAll('.project-card');
+    if (cards.length >= 2) {
+      // Measure the real distance between two consecutive cards - this
+      // naturally accounts for whatever gap (or none) applies at the
+      // current screen size, instead of guessing a fixed pixel value.
+      return cards[1].getBoundingClientRect().left - cards[0].getBoundingClientRect().left;
+    }
+    return cards[0] ? cards[0].getBoundingClientRect().width : 0;
+  }
+
   function update() {
-    const cardWidth = track.firstElementChild ? track.firstElementChild.getBoundingClientRect().width + 20 : 0;
-    track.style.transform = `translateX(-${index * cardWidth}px)`;
+    const step = getStep();
+    track.style.transform = `translateX(-${index * step}px)`;
     document.getElementById('carouselIndex').textContent = String(index + 1).padStart(2, '0');
   }
 
