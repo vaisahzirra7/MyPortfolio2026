@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zirra Vaisah Peter — Cybersecurity Researcher</title>
+<meta name="description" content="Cybersecurity graduate specializing in vulnerability assessment, penetration testing, and AI-assisted security research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div id="bootScreen" class="boot-screen">
+  <div class="boot-screen__terminal">
+    <div class="boot-screen__lines" id="bootLines"></div><span class="cursor-blink boot-screen__cursor" id="bootCursor">_</span>
+  </div>
+  <div class="boot-screen__skip">click anywhere to skip</div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav__scan-bar" id="scanBar" aria-hidden="true"></div>
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark">ZVP<span class="nav__mark-dot">.</span></a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__layout">
+      <div class="hero__inner">
+        <p class="eyebrow">// portfolio<span class="cursor-blink" aria-hidden="true">_</span></p>
+        <h1 class="hero__name" id="heroName">Loading…</h1>
+        <p class="hero__title" id="heroTitle"></p>
+        <p class="hero__tagline" id="heroTagline"></p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero__photo-wrap">
+        <div class="hero__photo-frame">
+          <img id="heroPhoto" alt="Zirra Vaisah Peter" style="display:none;">
+          <div class="hero__photo-placeholder" id="heroPhotoPlaceholder">Add your photo<br>from the admin panel</div>
+        </div>
+        <span class="hero__photo-tick hero__photo-tick--tl" aria-hidden="true"></span>
+        <span class="hero__photo-tick hero__photo-tick--br" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section reveal" id="about">
+    <div class="section__bg-icon section__bg-icon--lock" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.4">
+        <rect x="24" y="46" width="52" height="42" rx="4"/>
+        <path d="M34 46V32a16 16 0 0 1 32 0v14"/>
+        <circle cx="50" cy="65" r="5" fill="currentColor" stroke="none"/>
+        <line x1="50" y1="70" x2="50" y2="78"/>
+      </svg>
+    </div>
+    <p class="eyebrow">// about</p>
+    <h2 class="section__title">Background</h2>
+    <div class="about__text" id="aboutText"></div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--alt reveal" id="skills">
+    <p class="eyebrow">// skills</p>
+    <h2 class="section__title">Toolkit</h2>
+    <div class="skills__filters" id="skillsFilters"></div>
+    <div class="skills__grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section reveal" id="projects">
+    <p class="eyebrow">// projects</p>
+    <h2 class="section__title">Selected Work</h2>
+    <div class="carousel" id="projectCarousel">
+      <div class="carousel__track" id="carouselTrack"></div>
+    </div>
+    <div class="carousel__controls">
+      <button class="carousel__btn" id="carouselPrev" aria-label="Previous project">←</button>
+      <div class="carousel__counter"><span id="carouselIndex">01</span> / <span id="carouselTotal">00</span></div>
+      <button class="carousel__btn" id="carouselNext" aria-label="Next project">→</button>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--alt reveal" id="experience">
+    <p class="eyebrow">// leadership &amp; experience</p>
+    <h2 class="section__title">Where I've Shown Up</h2>
+    <div class="timeline" id="experienceList"></div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section reveal" id="research">
+    <p class="eyebrow">// research &amp; speaking</p>
+    <h2 class="section__title">Published &amp; Presented</h2>
+    <div class="research__list" id="researchList"></div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section class="section section--alt reveal" id="credentials">
+    <div class="section__bg-icon section__bg-icon--print" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M50 20a30 30 0 0 1 30 30v8"/>
+        <path d="M50 14a36 36 0 0 1 36 36v10"/>
+        <path d="M50 26a24 24 0 0 1 24 24v14a10 10 0 0 1-4 8"/>
+        <path d="M50 34a16 16 0 0 1 16 16v16a18 18 0 0 1-6 13.5"/>
+        <path d="M50 42a8 8 0 0 1 8 8v18"/>
+        <path d="M34 50a16 16 0 0 1 8-13.8"/>
+        <path d="M28 58a24 24 0 0 1 6-15.6"/>
+        <path d="M22 68a30 30 0 0 1 4-17"/>
+      </svg>
+    </div>
+    <p class="eyebrow">// credentials</p>
+    <h2 class="section__title">Certifications &amp; Awards</h2>
+
+    <div class="cred__section-head cred__section-head--first">
+      <h3 class="subhead">Featured</h3>
+    </div>
+    <div class="cred__grid" id="featuredCerts"></div>
+
+    <div class="cred__section-head">
+      <h3 class="subhead">All Certifications</h3>
+      <button class="btn btn--small" id="toggleAllCerts">Show all</button>
+    </div>
+    <div class="cred__all" id="allCerts" hidden></div>
+
+    <div class="cred__section-head">
+      <h3 class="subhead">Awards &amp; Honours</h3>
+    </div>
+    <div class="cred__grid" id="awardsGrid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section reveal" id="contact">
+    <div class="section__bg-icon section__bg-icon--nodes" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
+        <circle cx="20" cy="25" r="4"/>
+        <circle cx="55" cy="15" r="4"/>
+        <circle cx="82" cy="35" r="4"/>
+        <circle cx="30" cy="55" r="4"/>
+        <circle cx="65" cy="60" r="4"/>
+        <circle cx="15" cy="80" r="4"/>
+        <circle cx="50" cy="85" r="4"/>
+        <line x1="20" y1="25" x2="55" y2="15"/>
+        <line x1="55" y1="15" x2="82" y2="35"/>
+        <line x1="20" y1="25" x2="30" y2="55"/>
+        <line x1="55" y1="15" x2="65" y2="60"/>
+        <line x1="30" y1="55" x2="65" y2="60"/>
+        <line x1="30" y1="55" x2="15" y2="80"/>
+        <line x1="30" y1="55" x2="50" y2="85"/>
+        <line x1="65" y1="60" x2="50" y2="85"/>
+      </svg>
+    </div>
+    <p class="eyebrow">// contact</p>
+    <h2 class="section__title">Let's Talk</h2>
+    <div class="contact__grid">
+      <form class="contact__form" id="contactForm">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required maxlength="200">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required maxlength="200">
+        </label>
+        <label>
+          <span>Subject</span>
+          <input type="text" name="subject" maxlength="300">
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required maxlength="5000"></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+        <p class="contact__status" id="contactStatus" role="status"></p>
+      </form>
+      <div class="contact__links" id="contactLinks"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p><span id="secretAdmin" class="footer__copy">&copy;</span> <span id="year"></span> Zirra Vaisah Peter. Built with care.</p>
+</footer>
+
+<script src="/js/site.js"></script>
+</body>
+</html>

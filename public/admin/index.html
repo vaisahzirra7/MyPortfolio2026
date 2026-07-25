@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Zirra Vaisah Peter</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/admin/css/admin.css">
+</head>
+<body>
+
+<!-- LOGIN VIEW -->
+<div id="loginView" class="login">
+  <form id="loginForm" class="login__card">
+    <p class="eyebrow">// admin</p>
+    <h1>Sign in</h1>
+    <label>
+      <span>Username</span>
+      <input type="text" name="username" required autocomplete="username">
+    </label>
+    <label>
+      <span>Password</span>
+      <input type="password" name="password" required autocomplete="current-password">
+    </label>
+    <button type="submit" class="btn btn--primary">Sign in</button>
+    <p class="login__error" id="loginError"></p>
+  </form>
+</div>
+
+<!-- DASHBOARD VIEW -->
+<div id="dashView" class="dash" hidden>
+  <header class="dash__header">
+    <a href="/" class="dash__brand">ZVP<span>.</span> Admin</a>
+    <div class="dash__header-right">
+      <a href="/" target="_blank" class="dash__view-site">View site ↗</a>
+      <button id="logoutBtn" class="btn btn--small">Log out</button>
+    </div>
+  </header>
+
+  <div class="dash__body">
+    <nav class="dash__tabs" id="dashTabs">
+      <button data-tab="siteInfo" class="is-active">Site Info</button>
+      <button data-tab="skills">Skills</button>
+      <button data-tab="projects">Projects</button>
+      <button data-tab="experience">Experience</button>
+      <button data-tab="research">Research</button>
+      <button data-tab="certifications">Certifications</button>
+      <button data-tab="awards">Awards</button>
+      <button data-tab="messages">Messages <span id="unreadBadge" class="badge" hidden></span></button>
+    </nav>
+
+    <main class="dash__panel" id="dashPanel">
+      <!-- Filled dynamically by admin.js -->
+    </main>
+  </div>
+</div>
+
+<script src="/admin/js/admin.js"></script>
+</body>
+</html>
